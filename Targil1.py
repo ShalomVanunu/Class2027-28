@@ -15,4 +15,4 @@ def calc(input):
 
 
 data = input(" Calc Me :")
-calc(data)
+print(calc(data))
