@@ -6,7 +6,6 @@ file = open("text.txt","r")  #  r - read ,w- write, a- append
 file_content = file.read()
 
 
-
 print(file_content)
 print(file_content_lines)
 
