@@ -2,7 +2,7 @@ import sqlite3
 
 db_file = "students_db.db"
 
-create_table = """ CREATE TABLE students (
+create_table = """ CREATE TABLE IF NOT EXISTS students (
 id INTEGER,
 name TEXT,
 l_name TEXT,
